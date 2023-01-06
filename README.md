@@ -21,8 +21,8 @@ This project was bootstrapped with [Lerna](https://lerna.js.org/).
 
 ## Todo/Could have list
 - Move any styles into `SCSS` files
-- `React Intl` to be set for internationalization and localization purposes.
-- `Config` json file can be created to contain applications' configurations for locale and grid options.
+- `React Intl` to be set for internationalization and localization purposes
+- `Config` json file can be created to contain applications' configurations for locale and grid options
 
 ## Available Scripts
 

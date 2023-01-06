@@ -14,7 +14,7 @@ This project was bootstrapped with [Lerna](https://lerna.js.org/).
 - Data are fetched into the app by using `Fetch` API and are displayed with the `@mui/x-data-grid`
 - `Jest` Unit Tests were set to run for `components` package
 - For client-side routing, the `next/router` was used
-- <a href="https://storybook.js.org/" rel="nofollow" target='_blank'>`Storybook`</a> UI tool was installed in the main project for development, testing, and documentation purposes of `components` package. 
+- <a href="https://storybook.js.org/" rel="nofollow" target='_blank'>`Storybook`</a> UI tool was installed in the main project for development, testing, and documentation purposes of `components` package.
     -Some basic configuration were done for `Header`, `Grid` and `Pokemon` react components
 - `lerna-dockerize` package was installed to generate a dockerfile for lerna project.
 - `Screenshots` of the running project and Storybook can be found at `/screenshots`

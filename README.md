@@ -20,9 +20,9 @@ This project was bootstrapped with [Lerna](https://lerna.js.org/).
 - `Screenshots` of the running project and Storybook can be found at `/screenshots`
 
 ## Todo/Could have list
-    - Move any styles into `SCSS` files
-    - `React Intl` to be set for internationalization and localization purposes.
-    - `Config` json file can be created to contain applications' configurations for locale and grid options.
+- Move any styles into `SCSS` files
+- `React Intl` to be set for internationalization and localization purposes.
+- `Config` json file can be created to contain applications' configurations for locale and grid options.
 
 ## Available Scripts
 

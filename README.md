@@ -11,7 +11,7 @@ This project was bootstrapped with [Lerna](https://lerna.js.org/).
 - `utils` contains utilities for data fetching and interfaces
 - `pokedex` contains the main functionality of the <a href="https://nextjs.org/" rel="nofollow" target='_blank'>Next.js</a> project
 - `Typescript`, `Redux` and `MUI` were used
-- Pokemons are fetched into app with build-in `fetch` api and are displayed in the screen with the `@mui/x-data-grid`
+- Data are fetched into the app by using `Fetch` API and are displayed with the `@mui/x-data-grid`
 - `Jest` Unit Tests were set to run for `components` package
 - For client-side routing, the `next/router` was used
 - <a href="https://storybook.js.org/" rel="nofollow" target='_blank'>`Storybook`</a> UI tool was installed in the main project for development, testing, and documentation purposes of `components` package. 

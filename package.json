@@ -1,0 +1,59 @@
+{
+  "name": "lerna-repo-ex",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "bootstrap": "npm install lerna bootstrap",
+    "package:components": "lerna run --scope components --stream dev",
+    "package:pokedex": "lerna run --scope pokedex --stream dev",
+    "start": "run-p --print-label package:*",
+    "build": "lerna run --parallel build",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "lerna-dockerize": "lerna-dockerize"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "@storybook/addon-actions": "^6.5.15",
+    "@storybook/addon-essentials": "^6.5.15",
+    "@storybook/addon-interactions": "^6.5.15",
+    "@storybook/addon-links": "^6.5.15",
+    "@storybook/builder-webpack4": "^6.5.15",
+    "@storybook/cli": "^6.5.15",
+    "@storybook/manager-webpack4": "^6.5.15",
+    "@storybook/react": "^6.5.15",
+    "@storybook/testing-library": "^0.0.13",
+    "@types/node": "^14.0.23",
+    "babel-loader": "^8.3.0",
+    "css-loader": "^6.7.3",
+    "lerna": "^3.22.1",
+    "node-sass": "^8.0.0",
+    "npm-run-all": "^4.1.5",
+    "sass": "^1.57.1",
+    "sass-loader": "^13.2.0",
+    "style-loader": "^3.3.1",
+    "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "@storybook/preset-scss": "^1.0.3",
+    "@types/next": "^9.0.0",
+    "@types/react": "^16.9.43",
+    "@zeit/next-typescript": "^1.1.1",
+    "bootstrap": "^5.2.3",
+    "caniuse-lite": "^1.0.30001441",
+    "html-webpack-plugin": "^5.5.0",
+    "lerna-dockerize": "^1.0.4",
+    "next": "^9.4.4",
+    "next-transpile-modules": "^3.3.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "sass": "^1.34.1",
+    "sass-loader": "^10.1.1",
+    "storybook": "^6.5.15"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}

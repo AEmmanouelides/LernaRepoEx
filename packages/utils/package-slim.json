@@ -1,0 +1,9 @@
+{
+    "name": "utils",
+    "version": "1.0.0",
+    "devDependencies": {
+        "@types/react": "^17.0.4",
+        "ts-loader": "^9.4.2",
+        "typescript": "~4.2"
+    }
+}

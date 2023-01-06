@@ -19,30 +19,41 @@ This project was bootstrapped with [Lerna](https://lerna.js.org/).
 - `lerna-dockerize` package was installed to generate a dockerfile for lerna project
 - `Screenshots` of the running project and Storybook can be found at `/screenshots`
 
+## Todo/Could have list
+    - Move any styles into `SCSS` files
+    - `React Intl` to be set for internationalization and localization purposes.
+    - `Config` json file can be created to contain applications' configurations for locale and grid options.
+
 ## Available Scripts
+
+From the root folder, install all the needed packages with:
+
+```bash
+`npm i`
+```
 
 In the project directory, you can run:
 
-### `bootstrap`
+### `npm run bootstrap`
 
 Installs the dependencies for all of the packages in the repository and links any cross-dependencies
 
-### `build`
+### `npm run build`
 
 Builds all of the packages in the repository, in parallel
 
-### `start`
+### `npm run start`
 
 Runs the project on port :3000
 
-### `build-storybook`
+### `npm run build-storybook`
 
 Builds a static version of a Storybook instance
 
-### `storybook`
+### `npm run storybook`
 
 Starts the Storybook instance on port :6006
 
-### `lerna-dockerize`
+### `npm run lerna-dockerize`
 
 Builds Docker images for the packages in a monorepo managed by Lerna
